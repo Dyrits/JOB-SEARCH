@@ -1,41 +1,46 @@
-# job-search
+# Job Search
 
-This template should help get you started developing with Vue 3 in Vite.
+A job search front-end application built with Vue 3 and Vite.
 
-## Recommended IDE Setup
+## About The Project
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+This project is a Vue 3 single-page application scaffolded with Vite, with unit tests (Vitest), ESLint and Prettier configured.
 
-## Customize configuration
+## Built With
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- Vue 3
+- Vite
+- Vitest
 
-## Project Setup
+## Getting Started
 
-```sh
+### Prerequisites
+
+- Node.js and npm
+
+### Installation
+
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Development
 
-```sh
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Build and test
 
-```sh
+```bash
 npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
 npm run test:unit
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+## License
 
-```sh
-npm run lint
-```
+No license file is present in this repository.
+
+## Contact
+
+Dylan J. Gerrits - [GitHub](https://github.com/Dyrits)
