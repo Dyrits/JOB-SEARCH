@@ -44,3 +44,7 @@ No license file is present in this repository.
 ## Contact
 
 Dylan J. Gerrits - [GitHub](https://github.com/Dyrits)
+
+## Dependency verification (November 2026)
+
+This repository currently renders the original Vue starter greeting, not a job-search application. Use Node.js 26.13.0 LTS, `npm ci`, `npm run build` and `npm run test:unit -- --run`. Vite 8, its Vue plugin and Vitest 5 are aligned; config files use explicit ESM extensions. One component rendering test replaces the previous empty test suite. Local findings fall from 22 (including two critical) to 17 moderate development-tool findings. Local desktop/mobile browser rendering was checked; no hosted deployment or external service was tested.
